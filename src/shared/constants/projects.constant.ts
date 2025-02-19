@@ -2,20 +2,28 @@ import { TProject } from "../types/project.type";
 
 export const PROJECTS: Array<TProject> = [
   {
-    title: "Backoffice Online Store",
-    description:
-      "Manage your store effortlessly with user friendly tools for customer tracking, order processing, referral analytics, balance management, and sales insights all designed to enhance your efficiency and boost customer satisfaction.",
-    image: "/projects/backoffice-store.png",
-    languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
-    domain: "https://backoffice-online-store.ggwpdev.my.id",
-  },
-  {
     title: "Online Store",
     description:
       "Enjoy features like referral codes to earn rewards when friends shop, the ability to purchase with your balance for easy checkout, and a coin system that lets you earn points with every purchase redeemable for exciting prizes.",
     image: "/projects/store.png",
     languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
     domain: "https://store.ggwpdev.my.id",
+  },
+  {
+    title: "POS & Inventory Management",
+    description:
+      "Manage your store effortlessly with a powerful POS and inventory system. Track sales, control stock levels, and streamline checkout processes all in one place. Features include seamless integration with a reward-based coin system, easy payment options using account balance, and referral codes to engage customers with exciting rewards.",
+    image: "/projects/pos.png",
+    languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
+    domain: "https://pos.ggwpdev.my.id",
+  },
+  {
+    title: "Backoffice Online Store",
+    description:
+      "Manage your store effortlessly with user friendly tools for customer tracking, order processing, referral analytics, balance management, and sales insights all designed to enhance your efficiency and boost customer satisfaction.",
+    image: "/projects/backoffice-store.png",
+    languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
+    domain: "https://backoffice-online-store.ggwpdev.my.id",
   },
   {
     title: "Whatsapp Api & BOT Management",
