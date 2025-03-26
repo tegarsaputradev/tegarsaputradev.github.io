@@ -63,7 +63,7 @@ export const Skills = () => {
   return (
     <div className="mt-4 md:mt-8">
       <h2 className="font-semibold text-white text-2xl pb-2">Current skills</h2>
-      <div className="w-full md:flex mt-4 md:justify-between grid grid-cols-4">
+      <div className="w-full md:flex mt-4 md:justify-between grid grid-cols-4 space-y-2">
         {skills.map((skill, i) => (
           <div className="flex flex-col justify-center items-center" key={i}>
             <p
@@ -71,7 +71,9 @@ export const Skills = () => {
             >
               {skill.icon}
             </p>
-            <p className="text-slate-300 font-semibold mt-2">{skill.name}</p>
+            <p className="text-slate-300 font-semibold mt-2 text-sm md:text-base">
+              {skill.name}
+            </p>
           </div>
         ))}
       </div>
