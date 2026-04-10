@@ -22,10 +22,10 @@ const About = () => {
           <h2 className="text-2xl font-semibold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg text-slate-300 md:leading-loose">
             I am a skilled full-stack programmer with{" "}
-            <span className="font-semibold text-white">3 years</span> of
+            <span className="font-semibold text-white">4 years</span> of
             experience in web development. My strong foundation in programming
             has deepened my expertise in the web development ecosystem, with a
-            particular focus on JavaScript. I am passionate about building
+            particular focus on Go & JavaScript. I am passionate about building
             efficient, user-friendly solutions, collaborating effectively with
             teams, and continuously enhancing my skills to deliver high-quality
             projects.

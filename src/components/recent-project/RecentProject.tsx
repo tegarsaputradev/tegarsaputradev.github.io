@@ -36,32 +36,34 @@ const RecentProject = () => {
               <div className="flex gap-2 flex-wrap">
                 {project.languages.map((language, i) => {
                   return (
-                    <div
-                      key={`language${i}`}
-                      className={`flex items-center text-slate-700 px-3 py-1 rounded-lg text-xs font-medium shadow-sm shadow-white ${
-                        language.toLowerCase() === Languages.JAVASCRIPT
-                          ? "bg-lime-400"
-                          : language.toLowerCase() === Languages.TYPESCRIPT
-                            ? "bg-teal-400"
-                            : language.toLowerCase() === Languages.NEXTJS
-                              ? "bg-black !text-white"
-                              : language.toLowerCase() === Languages.NESTJS
-                                ? "bg-red-400"
-                                : language.toLowerCase() === Languages.AJAX
-                                  ? "bg-cyan-400"
-                                  : language.toLowerCase() ===
-                                      Languages.TAILWIND
-                                    ? "bg-blue-400"
-                                    : language.toLowerCase() ===
-                                        Languages.BOOTSTRAP
-                                      ? "bg-indigo-400"
-                                      : language.toLowerCase() === Languages.PHP
-                                        ? "bg-slate-400"
-                                        : ""
-                      }`}
-                    >
-                      <p className="text-[9px] md:text-xs">{language}</p>
-                    </div>
+                   <div
+  key={`language${i}`}
+  className={`flex items-center text-slate-700 px-3 py-1 rounded-lg text-xs font-medium shadow-sm shadow-white ${
+    language.toLowerCase() === Languages.JAVASCRIPT
+      ? "bg-yellow-400" // Kuning khas JS
+      : language.toLowerCase() === Languages.TYPESCRIPT
+        ? "bg-blue-600 !text-white" // Biru khas TS
+        : language.toLowerCase() === Languages.NEXTJS
+          ? "bg-black !text-white"
+          : language.toLowerCase() === Languages.NESTJS
+            ? "bg-red-600 !text-white" // Merah NestJS lebih deep
+            : language.toLowerCase() === Languages.GO
+              ? "bg-cyan-400" // Biru muda Gopher
+            : language.toLowerCase() === Languages.SOCKETIO
+              ? "bg-slate-900 !text-white" // Dark mode khas Socket.io
+            : language.toLowerCase() === Languages.AJAX
+              ? "bg-orange-400"
+              : language.toLowerCase() === Languages.TAILWIND
+                ? "bg-sky-400"
+                : language.toLowerCase() === Languages.BOOTSTRAP
+                  ? "bg-purple-600 !text-white" // Ungu khas Bootstrap
+                  : language.toLowerCase() === Languages.PHP
+                    ? "bg-indigo-400 !text-white" // Biru-ungu khas PHP
+                    : "bg-slate-200"
+  }`}
+>
+  <p className="text-[9px] md:text-xs">{language}</p>
+</div>
                   );
                 })}
               </div>

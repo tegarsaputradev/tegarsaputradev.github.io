@@ -1,4 +1,6 @@
 export enum Languages {
+  SOCKETIO = "socketio",
+  GO = "go",
   JAVASCRIPT = "javascript",
   TYPESCRIPT = "typescript",
   TAILWIND = "tailwind.css",

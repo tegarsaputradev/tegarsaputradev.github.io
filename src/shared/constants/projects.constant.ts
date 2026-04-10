@@ -2,20 +2,28 @@ import { TProject } from "../types/project.type";
 
 export const PROJECTS: Array<TProject> = [
   {
+    title: "Kontraktor & Inventory Management",
+    description:
+      "A comprehensive management system for contractors to streamline material requests (SPM), track purchasing reports, and manage inventory in real-time. Designed to improve procurement efficiency and stock accuracy across projects.",
+    image: "/projects/kontraktor.png",
+    languages: ["Go", "Next.js", "Tailwind.css"],
+    domain: "https://kontraktor.waconsole.com",
+  },
+  {
     title: "Whatsapp Api & BOT Management",
     description:
       "Streamline communication with our WhatsApp API, enabling automated messaging and real-time customer support. Manage your bot effortlessly, customize responses, and enhance user engagement to provide a seamless chat experience.",
-    image: "/projects/waconsole.png",
-    languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
-    domain: "https://waconsole.ggwpdev.my.id",
+    image: "/projects/waconsole-v2.png",
+    languages: ["Go", "Next.js", "Tailwind.css"],
+    domain: "https://waconsole.com",
   },
   {
     title: "Messenger Call and Videocall",
     description:
       "Connect with ease using our Messenger Call and Videocall platform. Enjoy seamless voice and video communication, real-time messaging, and group call features, all designed to enhance collaboration and personal interaction.",
     image: "/projects/messenger.png",
-    languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
-    domain: "https://messenger.ggwpdev.my.id",
+    languages: ["Typescript", "Next.js", "Socket.IO", "Tailwind.css"],
+    domain: "https://messenger.waconsole.com",
   },
   {
     title: "Online Store",
@@ -23,7 +31,7 @@ export const PROJECTS: Array<TProject> = [
       "Enjoy features like referral codes to earn rewards when friends shop, the ability to purchase with your balance for easy checkout, and a coin system that lets you earn points with every purchase redeemable for exciting prizes.",
     image: "/projects/store.png",
     languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
-    domain: "https://store.ggwpdev.my.id",
+    domain: "https://store.waconsole.com",
   },
   {
     title: "POS & Inventory Management",
@@ -31,7 +39,7 @@ export const PROJECTS: Array<TProject> = [
       "Manage your store effortlessly with a powerful POS warehouse and inventory system. Track sales, control stock levels, and streamline checkout processes all in one place.",
     image: "/projects/pos.png",
     languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
-    domain: "https://pos.ggwpdev.my.id",
+    domain: "https://pos.waconsole.com",
   },
   {
     title: "Backoffice Online Store",
@@ -39,7 +47,7 @@ export const PROJECTS: Array<TProject> = [
       "Manage your store effortlessly with user friendly tools for customer tracking, order processing, referral analytics, balance management, and sales insights all designed to enhance your efficiency and boost customer satisfaction.",
     image: "/projects/backoffice-store.png",
     languages: ["Typescript", "Next.js", "Nest.js", "Tailwind.css"],
-    domain: "https://backoffice-online-store.ggwpdev.my.id",
+    domain: "https://backoffice-os.waconsole.com",
   },
   {
     title: "Teacher attendance and journal",
